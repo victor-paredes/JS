@@ -116,10 +116,10 @@
       background: url("https://victorpared.es/wp-content/uploads/2024/10/a2l_hill_bg.png");
     }
     .a2l_headline {
-      font-size: 35px;
-      line-height: 40px;
-      margin-bottom: 25px;
-      letter-spacing: -0.5px;
+      font-size: 35px !important;
+      line-height: 40px !important;
+      margin-bottom: 25px !important;
+      letter-spacing: -0.5px !important;
       
     }
     .a2l_header_padding {
