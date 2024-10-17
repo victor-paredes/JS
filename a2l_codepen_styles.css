@@ -3,3 +3,7 @@
   --a2l_red: #db2640;
   --wrapper_padding: 50px 70px;
 }
+
+* {
+font-family: sans-serif;
+}
