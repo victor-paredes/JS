@@ -1,0 +1,159 @@
+
+  .a2l_header_padding {
+    padding: var(--wrapper_padding);
+  }
+  .a2l_header_content {
+    padding-right: 43%;
+    font-size: 1rem;
+  }
+  
+  
+  .a2l_header_fg {
+    z-index: 3;
+    position: relative;
+  }
+  .a2l_header_bg {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+  }
+  .a2l_header_hero {
+    display: inline-block;
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 40% !important;
+    padding-right: 20px;
+  }
+  
+  
+
+
+  
+  .a2l_header_padding {
+    padding: var(--wrapper_padding);
+  }
+  .a2l_header_content {
+    padding-right: 43%;
+    font-size: 1rem;
+  }
+  
+  
+  .a2l_header_fg {
+    z-index: 3;
+    position: relative;
+  }
+  .a2l_header_bg {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+  }
+  .a2l_header_hero {
+    display: inline-block;
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 40% !important;
+    padding-right: 20px;
+  }
+  
+  
+  
+  .color_burst {
+    background-color: var(--a2l_red);
+    background: linear-gradient(-30deg, rgba(150, 32, 54, 1) 0%, rgba(219, 38, 64, 1) 80%);
+    color: white;
+    border-radius: 0.25rem;
+    /* Initial clip-path covers entire container */
+    clip-path: ellipse(200% 300% at 50% 50%);
+    /* Adding transition */
+    animation: clipAnimation 2s ease-in-out forwards;
+  }
+  
+  /* Define the keyframe animation with bounce effect */
+  @keyframes clipAnimation {
+    0% {
+      clip-path: ellipse(200% 300% at 50% 50%);
+    }
+    80% {
+      clip-path: ellipse(95% 190% at -35% 75%);
+    }
+    100% {
+      clip-path: ellipse(100% 200% at -35% 75%);
+    }
+  }
+  
+
+
+
+
+
+
+
+
+  
+  
+  @media screen and (max-width: 576px) {
+  
+  }
+  @media screen and (max-width: 992px) {
+    .a2l_header_wrapper {
+      background-size: cover !important;
+      background: url("https://victorpared.es/wp-content/uploads/2024/10/a2l_hill_bg.png");
+    }
+    .a2l_headline {
+      font-size: 35px;
+      line-height: 40px;
+      margin-bottom: 25px;
+      letter-spacing: -0.5px;
+      
+    }
+    .a2l_header_padding {
+          padding: 20px 30px;
+      } 
+    
+    .a2l_header_hero {
+      display: inline-block;
+      z-index: 10;
+      position: absolute;
+      bottom: 0;
+      right: -5%;
+      max-width: 60%;
+      padding-right: 0;
+    }
+    
+    .a2l_header_content {
+      padding-right: 17%;
+    }
+    .extra_padding_on_mobile {
+      padding-right: 35px;
+    }
+    
+    .a2l_site_wrapper p {
+      font-size: 1rem;
+      line-height: 1.2rem;
+    }
+    
+    
+   
+    @keyframes clipAnimation {
+      0% {
+        clip-path: ellipse(200% 300% at 50% 50%);
+      }
+      80% {
+        clip-path: ellipse(100% 80% at -15% 75%);
+      }
+      100% {
+        clip-path: ellipse(100% 90% at -5% 75%);
+      }
+    }
+    
+    
+    
+  
+  }
+  
+  
+  
